@@ -1,0 +1,57 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.para {
+  color: #334155;
+  font-size: 18px;
+}
+
+p {
+  color: #1e293b;
+  font-size: 12px;
+}
+
+button {
+  background-color: #ffffff;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+  padding-left: 20px;
+  cursor: pointer;
+  outline: black;
+  border: none;
+  border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 60px;
+    margin-bottom: 15px;
+  }
+
+  .para {
+    font-size: 34px;
+  }
+
+  button {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 28px;
+    padding-left: 28px;
+  }
+}
